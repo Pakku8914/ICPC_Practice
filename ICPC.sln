@@ -11,10 +11,13 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2022_c", "2022_c\2022_c.vcx
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ソリューション項目", "ソリューション項目", "{0E88D542-44DB-4D49-AE3F-6A4CA54CD4C7}"
 	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
 		readme.md = readme.md
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcxproj", "{FED93120-AAC8-47DC-A321-8539C2A12BD9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2022_d", "2022_d\2022_d.vcxproj", "{12CDFF13-E506-4FC9-8D9E-1B09D5D9A743}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -56,6 +59,14 @@ Global
 		{FED93120-AAC8-47DC-A321-8539C2A12BD9}.Release|x64.Build.0 = Release|x64
 		{FED93120-AAC8-47DC-A321-8539C2A12BD9}.Release|x86.ActiveCfg = Release|Win32
 		{FED93120-AAC8-47DC-A321-8539C2A12BD9}.Release|x86.Build.0 = Release|Win32
+		{12CDFF13-E506-4FC9-8D9E-1B09D5D9A743}.Debug|x64.ActiveCfg = Debug|x64
+		{12CDFF13-E506-4FC9-8D9E-1B09D5D9A743}.Debug|x64.Build.0 = Debug|x64
+		{12CDFF13-E506-4FC9-8D9E-1B09D5D9A743}.Debug|x86.ActiveCfg = Debug|Win32
+		{12CDFF13-E506-4FC9-8D9E-1B09D5D9A743}.Debug|x86.Build.0 = Debug|Win32
+		{12CDFF13-E506-4FC9-8D9E-1B09D5D9A743}.Release|x64.ActiveCfg = Release|x64
+		{12CDFF13-E506-4FC9-8D9E-1B09D5D9A743}.Release|x64.Build.0 = Release|x64
+		{12CDFF13-E506-4FC9-8D9E-1B09D5D9A743}.Release|x86.ActiveCfg = Release|Win32
+		{12CDFF13-E506-4FC9-8D9E-1B09D5D9A743}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

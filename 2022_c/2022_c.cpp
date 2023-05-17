@@ -1,17 +1,14 @@
 #include <iostream>
-#include <vector>
 using namespace std;
-
-#define MAX_N_M 1000000
 
 // “ü—Í
 // —ûK“ú
 int n;
 // ‹x“ú
 int m;
-int ans;
+long long int ans;
 
-bool dfs(int x, int y, int cntx = 1, int cnty = 1, int sum = 0) {
+bool dfs(int x, int y, int cntx = 1, int cnty = 1, long long int sum = 0) {
     if (x == n && y == m) { // ’TõI—¹ğŒ
         if (ans == 0 && sum < 0) { // ‰ğ‚ª•‰”‚É‚È‚éê‡
             ans = sum;
